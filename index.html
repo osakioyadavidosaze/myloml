@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Short Wife 💖</title>
+    <style>
+        :root {
+            --bg-dark: #0A0507;
+            --panel-bg: #160D10;
+            --rose-primary: #F43F5E;
+            --rose-glow: #FB7185;
+            --text-light: #FFF1F2;
+            --text-muted: #FDA4AF;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Roboto, sans-serif; }
+        
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 60px 20px;
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        header { text-align: center; margin-bottom: 50px; }
+        h1 { font-size: 2.5rem; color: var(--rose-primary); margin-bottom: 10px; text-shadow: 0 0 10px rgba(244, 63, 94, 0.3); }
+        .subtitle { color: var(--text-muted); font-size: 1.1rem; font-style: italic; }
+
+        /* Grid Section */
+        .grid-title { margin-bottom: 24px; color: var(--rose-primary); font-size: 1.5rem; text-align: center; }
+        .reasons-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            width: 100%;
+            max-width: 800px;
+            margin-bottom: 50px;
+        }
+        .reason-card {
+            background: var(--panel-bg);
+            border: 1px solid rgba(254, 164, 175, 0.1);
+            padding: 24px;
+            border-radius: 12px;
+            text-align: center;
+            transition: transform 0.3s, border-color 0.3s;
+        }
+        .reason-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--rose-primary);
+        }
+        .card-icon { font-size: 2rem; margin-bottom: 12px; display: block; }
+        .reason-card h3 { font-size: 1.2rem; margin-bottom: 8px; color: var(--text-light); }
+        .reason-card p { font-size: 0.95rem; color: var(--text-muted); line-height: 1.4; }
+
+        /* Letter Box */
+        .letter-box {
+            background: linear-gradient(135deg, var(--panel-bg) 0%, #1c0f13 100%);
+            border: 1px dashed var(--rose-primary);
+            padding: 35px;
+            border-radius: 16px;
+            max-width: 600px;
+            width: 100%;
+            line-height: 1.6;
+            color: #FFE4E6;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+        }
+        .letter-box p { margin-bottom: 15px; }
+        .letter-sign { text-align: right; font-style: italic; color: var(--rose-glow); font-weight: bold; margin-top: 25px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>To My Short Wife ❤️</h1>
+        <p class="subtitle">A little space on the internet just for my big head mama.</p>
+    </header>
+
+    <!-- 1. REASONS WHY I LOVE YOU GRID -->
+    <h3 class="grid-title">Why I Love You</h3>
+    <div class="reasons-grid">
+        <div class="reason-card">
+            <span class="card-icon">✨</span>
+            <h3>Your Smile</h3>
+            <p>It instantly changes my entire mood no matter how tough my day has been. Best view in the world.</p>
+        </div>
+        <div class="reason-card">
+            <span class="card-icon">🧠</span>
+            <h3>Your Big Head</h3>
+            <p>How deeply caring you are toward everyone around you and how beautifully you handle your things.</p>
+        </div>
+        <div class="reason-card">
+            <span class="card-icon">🤗</span>
+            <h3>Your Safe Space</h3>
+            <p>Being with you feels like home. I can easily be 100% myself without hiding anything from you.</p>
+        </div>
+    </div>
+
+    <!-- 2. PERSONAL DIGITAL LETTER -->
+    <div class="letter-box">
+        <p>Hey Big Head Mama,</p>
+        <p>I wanted to build something unique to remind you of how much you mean to me. You aren't just my short wife; you are my best friend and my biggest blessing.</p>
+        <p>Thank you for your love, your patience, and all the incredible moments we share together. I appreciate everything you do, and I am so grateful to have you by my side.</p>
+        <div class="letter-sign">— Forever Yours ❤️</div>
+    </div>
+
+</body>
+</html>
